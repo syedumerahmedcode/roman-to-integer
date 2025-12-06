@@ -35,5 +35,9 @@ public class App {
          * 
          */
         System.out.println("Hello, World!");
+        Solution solution = new Solution();
+        String input = "MDXLIV";
+        int output = solution.romanToInt(input);
+        System.out.println("The given roman number is: " + input + " and the equivalent number is: " + output);
     }
 }
